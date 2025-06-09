@@ -9,8 +9,7 @@ if (window.innerWidth < 768) {
     stagger:.2,
     textShadow:'inset 0px 10px 55px black',
     x:-2,
-        ease:'power2.inOut',
-          duration:1.5,
+      
 
 
   
@@ -20,8 +19,6 @@ tl.to('h1' , {
 
 gap:'20px',
       stagger:.1,
-    ease:'power2.inOut',
-          duration:3,
 
   
 
@@ -39,8 +36,7 @@ tl.to('h1 span' , {
 },'sp2');
 tl.to('.white-con' , {
     left:'80%',
-    duration:3,
-    ease:'power2.inOut',
+    duration:1.2,
     delay:0,
  
 },'sp2');
@@ -49,18 +45,17 @@ tl.to('.white-con' , {
     bottom:'0%',
     width:'100%',
     height:'100%',
-    duration:2,
-    ease:'power2.inOut',
-    delay:0,
+    duration:1.2,
+    delay:.2,
     rotate:0,
  
 },'sp3');
 tl.to('h1' , {
+    delay:.2,
 
 gap:'5px',
   stagger:.1,
         duration:.8,
-delay:.8,
   
 
 
